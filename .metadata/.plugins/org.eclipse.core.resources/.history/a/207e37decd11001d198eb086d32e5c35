@@ -1,0 +1,20 @@
+package com.xwork.DAO;
+
+
+import java.sql.DriverManager;
+
+import com.sun.jdi.connect.spi.Connection;
+import com.xworkz.DTO.BarDTO;
+
+public class BarDAOimpl implements BarDAO{
+
+	
+
+	@Override
+	public boolean save(BarDTO bardto) {
+		return false;
+	
+
+			
+		}
+}

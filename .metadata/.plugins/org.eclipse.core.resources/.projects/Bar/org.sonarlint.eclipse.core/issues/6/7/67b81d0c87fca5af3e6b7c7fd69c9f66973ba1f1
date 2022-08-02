@@ -1,0 +1,9 @@
+
+e
+java:S1172"-Remove this unused method parameter "string".(÷­žÍÿÿÿÿÿ8í€Òç¥0H¶RMAJORZ
+CODE_SMELL
+‰	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹¢¥ úÿÿÿÿHGRMINORZ
+CODE_SMELL
+q
+java:S3400"9Remove this method and declare a constant for this value.(ø±ˆµúÿÿÿÿ8—ÖÖç¥0H¾RMINORZ
+CODE_SMELL

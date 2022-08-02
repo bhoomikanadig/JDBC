@@ -1,0 +1,16 @@
+package com.xworkz.DAO;
+
+import com.xworkz.DTO.JobDTO;
+
+public interface JobDAO {
+	boolean save(JobDTO dto);
+	//JobDTO findById(int id);
+	//JobDTO findByIdAndDesignation(int id,String Designation);
+	
+	
+	
+	
+	
+	
+
+}

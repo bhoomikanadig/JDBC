@@ -1,0 +1,14 @@
+package com.xworkz.DTO;
+
+
+public class JobDTO  {
+	private Integer Id;
+	private String designation;
+	private double Package;
+	private String varchar;
+	private double percentage;
+	private boolean fresher;
+	
+	
+
+}

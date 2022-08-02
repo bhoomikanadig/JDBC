@@ -1,0 +1,22 @@
+package com.xworkz.constant;
+
+public enum Designation {
+	SOFTWAREENGINEER("Softwareengineer"),TRAINEE("trainee"),ASE("ase"),FULLSTACKDEVELOPER("fullstackdeveloper") ;
+	 private String value;
+	 Designation(String value){
+		this.value=value;
+	}
+	String getvalue(){
+		return "value";
+		 
+	 }
+	 
+			
+	
+	
+	  
+		 
+		
+	
+
+}

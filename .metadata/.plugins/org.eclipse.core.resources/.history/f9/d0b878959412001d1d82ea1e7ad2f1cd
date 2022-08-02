@@ -1,0 +1,16 @@
+package com.xworkz.constant;
+
+public enum Qualification {
+	BE("Bbe"),BSC("bsc"),BCA("bca"),BCOM("bcom");
+	private String value;
+	Qualification(String value){
+		this.value=value;
+		
+	}
+	private String getvalue(){
+		return "value";
+	
+	
+
+}
+}

@@ -1,0 +1,18 @@
+package com.xwork.Constant;
+
+public enum BarType {
+WINE,PUB,BAR_RESTORENT,MSIL,RESORT,DEFAULT;
+	String value;
+	BarType(){
+		this.value=value;
+	}
+	String getname() {
+		return value;
+		
+	}
+	void getBar() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+

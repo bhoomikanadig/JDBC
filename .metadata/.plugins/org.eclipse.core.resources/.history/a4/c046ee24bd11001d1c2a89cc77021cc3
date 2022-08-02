@@ -1,0 +1,4 @@
+module Bar {
+	requires jdk.jdi;
+	requires mysql.connector.java;
+}

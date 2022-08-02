@@ -1,0 +1,5 @@
+package com.xwork.DAO;
+
+public interface BarDAO {
+
+}
