@@ -8,6 +8,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Politician"/>
+			<item value="Jobdetails"/>
 			<item value="Job"/>
 			<item value="BarProject"/>
 			<item value="Bar"/>

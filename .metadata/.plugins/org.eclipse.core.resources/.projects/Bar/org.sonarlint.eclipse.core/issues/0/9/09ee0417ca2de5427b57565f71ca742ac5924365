@@ -1,8 +1,8 @@
 
-‰	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹¢¥ úÿÿÿÿHRMINORZ
-CODE_SMELL
 [
-java:S1656"/Remove or correct this useless self-assignment.(œË÷Ä8ËÀ×Í¥0H€RMAJORZBUG
+java:S1656"/Remove or correct this useless self-assignment.(œË÷Ä8ËÀ×Í¥0HæRMAJORZBUG
 –
-java:S4165"cRemove this useless assignment; "value" already holds the assigned value along all execution paths.(œË÷Ä8ËÀ×Í¥0HRMAJORZ
+java:S4165"cRemove this useless assignment; "value" already holds the assigned value along all execution paths.(œË÷Ä8ËÀ×Í¥0HçRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹¢¥ úÿÿÿÿHèRMINORZ
 CODE_SMELL

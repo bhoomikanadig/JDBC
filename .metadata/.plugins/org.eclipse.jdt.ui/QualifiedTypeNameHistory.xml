@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.xwork.Constant.BarType"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="com.xworkz.DTO.BarDTO"/>
     <fullyQualifiedTypeName name="com.sun.jdi.connect.spi.Connection"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.xwork.DAO.BarDAO"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.protocol.ResultsetRow"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.protocol.Resultset"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="com.xworkz.DTO.JobDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.constant.Designation"/>
+    <fullyQualifiedTypeName name="com.xworkz.constant.Qualification"/>
+    <fullyQualifiedTypeName name="com.xworkz.DAO.JobDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.DAO.JobDAO"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.xworkz.constant.Dbproperties"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.xworkz.dto.JobDTO"/>
+    <fullyQualifiedTypeName name="com.xwork.dao.JobDAO"/>
+    <fullyQualifiedTypeName name="com.xwork.dao.JobDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.Constant.Dbcredentials"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="com.xworkz.Constant.Designation"/>
+    <fullyQualifiedTypeName name="com.xworkz.Constant.Qualification"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
 </qualifiedTypeNameHistroy>

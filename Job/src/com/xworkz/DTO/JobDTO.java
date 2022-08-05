@@ -1,7 +1,8 @@
-package com.xworkz.DTO;
+package com.xworkz.dto;
 
-import com.xworkz.constant.Designation;
-import com.xworkz.constant.Qualification;
+import com.xworkz.Constant.Designation;
+
+import com.xworkz.Constant.Qualification;
 
 
 public class JobDTO {
@@ -12,9 +13,7 @@ public class JobDTO {
 	private Qualification qualification=Qualification.DEFAULT;
 	private Double percentage;
 	private String fresher;
-	
-	public JobDTO(Integer jid, Designation designation, Double annualPackage, Qualification qualification,
-			Double percentage, String fresher) {
+	public JobDTO() {
 		super();
 		this.jid = jid;
 		this.designation = designation;
@@ -58,11 +57,6 @@ public class JobDTO {
 	}
 	public void setFresher(String fresher) {
 		this.fresher = fresher;
-	}
-	@Override
-	public String toString() {
-		return "JobDTO [jid=" + jid + ", designation=" + designation + ", annualPackage=" + annualPackage
-				+ ", qualification=" + qualification + ", percentage=" + percentage + ", fresher=" + fresher + "]";
 	}
 	
 	
