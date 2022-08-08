@@ -13,7 +13,6 @@ public interface PoliticianDAO {
 	String friendPresidentByIdAndName(String name,int id);
 	int getTotal();
 	PoliticianDTO findPartyByMaxMembers();
-
 	
 
 }

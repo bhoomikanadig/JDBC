@@ -2,7 +2,7 @@ package com.xworkz.constant;
 
 public enum Dbcredentials {
 
-URL("jdbc:mysql://Localhost:3306/job"), USERNAME("root"),SECRET("root");
+URL("jdbc:mysql://Localhost:3306/politician"), USERNAME("root"),SECRET("root");
 	
 	private String value;
 	

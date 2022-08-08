@@ -1,13 +1,8 @@
 
-j	java:S106!"9Replace this use of System.out or System.err by a logger.(Ÿ¹Á8÷¬×¥0Hÿ	RMAJORZ
-CODE_SMELL
-Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”ğ§”ıÿÿÿÿH€
-RMINORZ
-CODE_SMELL
-g
-java:S1191	"5Use classes from the Java API instead of Sun classes.(Ë—#8¡ïÔ¥0H
-RMAJORZ
+j	java:S106!"9Replace this use of System.out or System.err by a logger.(Ÿ¹Á8÷¬×¥0HÃRMAJORZ
 CODE_SMELL
 z
-java:S2095"GUse try-with-resources or close this "!Unknown!" in a "finally" clause.(¸®øÿÿÿÿÿ8÷¬×¥0H‚
-RBLOCKERZBUG
+java:S2095"GUse try-with-resources or close this "!Unknown!" in a "finally" clause.(¸®øÿÿÿÿÿ8÷¬×¥0HÄRBLOCKERZBUG
+g
+java:S1191	"5Use classes from the Java API instead of Sun classes.(Ë—#8¡ïÔ¥0HÅRMAJORZ
+CODE_SMELL

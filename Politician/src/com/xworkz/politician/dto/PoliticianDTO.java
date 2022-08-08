@@ -1,7 +1,10 @@
 package com.xworkz.politician.dto;
 
 
+
+
 public class PoliticianDTO {
+	
 	private int id;
 	private String Name;
 	private String President;
