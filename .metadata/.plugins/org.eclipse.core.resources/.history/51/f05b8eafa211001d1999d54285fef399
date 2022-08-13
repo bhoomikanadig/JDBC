@@ -1,5 +1,0 @@
-package com.xwork.Constant;
-
-public enum BarType {
-
-}

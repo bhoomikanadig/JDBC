@@ -8,8 +8,6 @@
     <fullyQualifiedTypeName name="com.mysql.cj.protocol.ResultsetRow"/>
     <fullyQualifiedTypeName name="com.mysql.cj.protocol.Resultset"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="com.xworkz.DTO.JobDTO"/>
     <fullyQualifiedTypeName name="com.xworkz.constant.Designation"/>
     <fullyQualifiedTypeName name="com.xworkz.constant.Qualification"/>
@@ -42,9 +40,23 @@
     <fullyQualifiedTypeName name="constant.PartyName"/>
     <fullyQualifiedTypeName name="constant.PartySymbol"/>
     <fullyQualifiedTypeName name="constant.DBCredentails"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="com.xworkz.resort.entity.ResortEntity"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="com.xworkz.resort.resortDAO.ResortDAOImpl"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+    <fullyQualifiedTypeName name="com.xworkz.resorts.entity.ResortEntity"/>
     <fullyQualifiedTypeName name="java.time.LocalTime"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="com.xworkx.resorts.dao.ResortDAO"/>
+    <fullyQualifiedTypeName name="com.xworkx.resorts.dao.ResortDAOImpl"/>
 </qualifiedTypeNameHistroy>

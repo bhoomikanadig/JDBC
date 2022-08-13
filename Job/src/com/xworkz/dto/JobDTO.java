@@ -4,7 +4,9 @@ import com.xworkz.Constant.Designation;
 
 import com.xworkz.Constant.Qualification;
 
+import lombok.Getter;
 
+@Getter
 public class JobDTO {
 	
 	private Integer jid;

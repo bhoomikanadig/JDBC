@@ -1,4 +1,5 @@
 package com.xworkz.dto;
+@get
 
 public class DogDto {
 	
