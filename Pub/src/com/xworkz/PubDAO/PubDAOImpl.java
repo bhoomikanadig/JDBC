@@ -7,14 +7,14 @@ import javax.persistence.Persistence;
 
 import com.xworkz.PubEntity.PubEntity;
 
-
 public class PubDAOImpl implements PubDAO {
-	
-EntityManagerFactory factory=Persistence.createEntityManagerFactory("com.xworkz");
+
+	EntityManagerFactory factory = Persistence.createEntityManagerFactory("com.xworkz");
+
 	@Override
 	public boolean save(PubEntity entity) {
-		EntityManager manager=factory.createEntityManager();
-		EntityTransaction tx=manager.getTransaction();
+		EntityManager manager = factory.createEntityManager();
+		EntityTransaction tx = manager.getTransaction();
 		manager.persist(entity);
 		tx.begin();
 		tx.commit();
@@ -46,7 +46,6 @@ EntityManagerFactory factory=Persistence.createEntityManagerFactory("com.xworkz"
 		return null;
 	}
 
-
 	@Override
 	public void updateOwnerAndLocationById(String newOwner, String newLocation, int id) {
 		EntityManager manager = null;
@@ -54,39 +53,36 @@ EntityManagerFactory factory=Persistence.createEntityManagerFactory("com.xworkz"
 			manager = factory.createEntityManager();
 			EntityTransaction tx = manager.getTransaction();
 			tx.begin();
-		PubEntity entity	=manager.find(PubEntity.class, id);
+			PubEntity entity = manager.find(PubEntity.class, id);
 			entity.setOwner(newOwner);
 			entity.setLocation(newLocation);
-		    manager.merge(entity);	
+			manager.merge(entity);
 			tx.commit();
-			
 
 		} catch (Exception e) {
-           e.printStackTrace();
-		}
-		finally {
+			e.printStackTrace();
+		} finally {
 			manager.close();
 		}
 
 	}
 
-	@Override
+	@Overridet
 	public void deleteById(int id) {
-		 EntityManager manager = null;
-			try {
-				manager = factory.createEntityManager();
-			EntityTransaction tx=manager.getTransaction();
+		EntityManager manager = null;
+		try {
+			manager = factory.createEntityManager();
+			EntityTransaction tx = manager.getTransaction();
 			tx.begin();
-		PubEntity entity=manager.find(PubEntity.class, id);
+			PubEntity entity = manager.find(PubEntity.class, id);
 			manager.remove(entity);
-				tx.commit();
-			}catch(Exception e) {
-			e.printStackTrace();	
-			}
-			finally {
-				manager.close();
-			}
-			
+			tx.commit();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			manager.close();
 		}
 
 	}
+
+}

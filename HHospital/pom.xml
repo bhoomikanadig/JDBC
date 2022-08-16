@@ -4,12 +4,13 @@
   <artifactId>HHospital</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.30</version>
 </dependency>
+
 <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 <dependency>
     <groupId>org.projectlombok</groupId>
@@ -23,6 +24,7 @@
     <artifactId>hibernate-core</artifactId>
     <version>5.6.10.Final</version>
 </dependency>
+
  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
