@@ -30,9 +30,10 @@ private String gender;
 private String author;
 private String type;
 
-private String createdBy;
-private LocalDateTime createdDate;
-private String updatedBy;
+//private String createdBy;
+//private LocalDateTime createdDate;
+//private String updatedBy;
+//
 private LocalDateTime updatedDate;
 
 public CartoonEntity (Integer cId ,String name,String country, String location,String gender,String author,String type,String createdBY,LocalDateTime createdDate,String updatedBy,LocalDateTime updatedDate ){

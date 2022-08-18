@@ -2,6 +2,7 @@ package com.xworkz.entity;
 
 import java.time.LocalDateTime;
 
+import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 import lombok.AllArgsConstructor;
@@ -16,7 +17,7 @@ import lombok.Setter;
 @MappedSuperclass
 
 public class AnimatorEntity {
-
+@Column(name="cartoonEntitycol")
 	private String createdBy;
 	private LocalDateTime createdDate;
 	private String updatedBy;
