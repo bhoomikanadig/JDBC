@@ -22,4 +22,4 @@ public class AnimatorEntity {
 	private LocalDateTime createdDate;
 	private String updatedBy;
 	private LocalDateTime updatedDate;
-}
+} 
